@@ -131,7 +131,7 @@ func main() {
 #### Enabling
 
 To enable auto-completion for the current shell session, a bash script,
-`autocomplete/bash_autocomplete` is included in this repo.
+`autocomplete/bash_autocomplete` is included in this repo (make sure you checkout the file from the branch corresponding to the version you use, as the script may have changed).
 
 To use `autocomplete/bash_autocomplete` set an environment variable named `PROG`
 to the name of your program and then `source` the
@@ -217,7 +217,7 @@ func main() {
 #### ZSH Support
 
 Auto-completion for ZSH is also supported using the
-`autocomplete/zsh_autocomplete` file included in this repo. One environment
+`autocomplete/zsh_autocomplete` file included in this repo (make sure you checkout the file from the branch corresponding to the version you use, as the script may have changed). One environment
 variable is used, `PROG`.  Set `PROG` to the program name as before, and then
 `source path/to/autocomplete/zsh_autocomplete`.  Adding the following lines to
 your ZSH configuration file (usually `.zshrc`) will allow the auto-completion to
@@ -237,7 +237,7 @@ $ source path/to/autocomplete/zsh_autocomplete
 #### PowerShell Support
 
 Auto-completion for PowerShell is also supported using the
-`autocomplete/powershell_autocomplete.ps1` file included in this repo.
+`autocomplete/powershell_autocomplete.ps1` file included in this repo (make sure you checkout the file from the branch corresponding to the version you use, as the script may have changed).
 
 Rename the script to `<my program>.ps1` and move it anywhere in your file
 system.  The location of script does not matter, only the file name of the
